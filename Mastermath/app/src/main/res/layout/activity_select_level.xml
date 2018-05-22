@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_level_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/math"
+    android:paddingBottom="@dimen/vertical_act_margin"
+    android:paddingLeft="@dimen/horizontal_act_margin"
+    android:paddingRight="@dimen/horizontal_act_margin"
+    android:paddingTop="@dimen/vertical_act_margin"
+    tools:context="com.emperia.isurup.mastermath.MathGame">
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="select level"
+
+        android:textColor="#CED7DA"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+
+        android:id="@+id/btnNovice"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:alpha="0.85"
+
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="40dp"
+        android:background="#6ED4F5"
+
+        android:onClick="gameplay"
+        android:text="NOVICE"
+
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnEasy"
+        android:layout_width="300dp"
+
+        android:layout_height="80dp"
+        android:alpha="0.85"
+        android:layout_below="@id/btnNovice"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="20dp"
+        android:background="#6E8BF5"
+        android:text="EASY"
+
+        android:textColor="#000000"
+        android:textSize="25dp"
+
+        />
+
+    <Button
+        android:id="@+id/btnMedium"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:alpha="0.85"
+
+        android:layout_below="@+id/btnEasy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#A76EF5"
+        android:text="MEDIUM"
+        android:textColor="#000000"
+
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnGuru"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:alpha="0.85"
+
+        android:layout_below="@+id/btnMedium"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="#F36EF5"
+
+        android:text="GURU"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>

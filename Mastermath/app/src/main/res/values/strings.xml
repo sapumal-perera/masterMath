@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Mastermath</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_select_level">SelectLevel</string>
+    <string name="title_activity_math_game">MathGame</string>
+    <string name="title_activity_score">Score</string>
+    <string name="about"><h5><center>Test Your IQ with Maths</center></h5>
+        \n\n This is a math game that specially designed to test your mathematical skills
+        \n\n You have to guess the correct answer for the mathematical expression that diplay on screen.
+        \n\n You Just have 10 seconds for each.
+        \n\n <h6><center>How to paly</center></h6>
+        \n\n It is very easy. you just have to select a level at the beginning according to your confidence about your math skills.
+        \n\n You have four levels. Novice, easy , medium and guru. pick one and you are in.
+        \n\n type the answer and hit <b>"#"</b> to check it. it will show the result.
+        \n\n if an mathematical expression  feels difficult you can use <b>Hint</b> option. it will let you know whether your
+        \n\n answer is greater than or less than to the correct answer.
+
+        \n\n you have to answer 10 questions. end of the test it will display your score for each and total score.
+        \n\n If you solve quikly you can score more!
+          \n\n<h6><center>Enjoy The MASTERMATH!</center></h6>
+
+        </string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_guru">guru</string>
+    <string name="title_activity_medium">Medium</string>
+    <string name="title_activity_novice">Novice</string>
+    <string name="title_activity_easy">Easy</string>
+    <string name="title_activity_popup">Popup</string>
+    <string name="got_it">Got it!</string>
+    <string name="guess_it">Guess it:</string>
+    <string name="time_remainning">Time Remaining:</string>
+    <string name="correct">Correct</string>
+    <string name="wrong">Wrong</string>
+    <string name="greater">Greater</string>
+    <string name="less">Less</string>
+    <string name="exitMsg">Exit master math</string>
+    <string name="your_score">Your Score</string>
+    <string name="cont">Continue</string>
+    <string name="time_remaining">Time Remaining:</string>
+    <string name="timesover">Time\'s Over!</string>
+</resources>
